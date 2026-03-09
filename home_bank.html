@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM Interface</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #6A8CFF;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            width: 80%;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .options {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+
+        .options a {
+            padding: 20px;
+            margin: 12px 0;
+            color: #007bff;
+            text-decoration: none;
+            font-size: 24px;
+            background-color: #e6f2ff;
+            border-radius: 10px;
+            transition: background-color 0.3s, transform 0.2s;
+            width: 90%;
+            text-align: center;
+        }
+
+        .options a:hover {
+            background-color: #b8daff;
+            transform: translateY(-3px);
+        }
+
+        /* Logout button - matches your red button style */
+        .logout-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 15px 30px;
+            background-color: #ffe6e6; /* Light red */
+            color: #dc3545; /* Dark red */
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+            display: flex;
+            align-items: center;
+        }
+
+        .logout-button:hover {
+            background-color: #f5c6cb; /* Hover red */
+            transform: translateY(-3px);
+        }
+
+        .logout-button img {
+            margin-right: 10px;
+            height: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Select Transaction Type</h1>
+        <div class="options">
+            <a href="domestic.html"><b>Domestic</b></a>
+            <a href="international.html"><b>International</b></a>
+        </div>
+    </div>
+
+    <!-- Logout Button (replaces Exit button in same position) -->
+    <a href="index.html" class="logout-button">
+        <img src="cancel_icon.png" alt="Logout Icon">Logout
+    </a>
+</body>
+
+</html>

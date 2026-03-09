@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Account Type</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #6A8CFF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            width: 30%;
+            background-color: #fff;
+            padding: 25px;
+            border-radius: 20px;
+            box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h2 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+
+        .button-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            font-size: 18px;
+            text-decoration: none;
+            color: #333;
+            border-radius: 10px;
+            background-color: #f8f9fa;
+            border: 1px solid #ddd;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        .btn img {
+            margin-right: 10px;
+            height: 24px;
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+        }
+
+        /* Custom button colors */
+        .credit {
+            background-color: #e6f7e6;
+            color: #28a745;
+        }
+
+        .credit:hover {
+            background-color: #c3e6cb;
+        }
+
+        .savings {
+            background-color: #e6f2ff;
+            color: #007bff;
+        }
+
+        .savings:hover {
+            background-color: #b8daff;
+        }
+
+        .current {
+            background-color: #faf5ff;
+            color: #6f42c1;
+        }
+
+        .current:hover {
+            background-color: #dab6f7;
+        }
+
+        .cancel {
+            background-color: #ffe6e6;
+            color: #dc3545;
+        }
+
+        .cancel:hover {
+            background-color: #f5c6cb;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Select Account Type</h2>
+        <div class="button-grid">
+            <a href="balance_enquiry.html" class="btn credit"><b>Credit</b></a>
+            <a href="balance_enquiry.html" class="btn savings"><b>Savings</b></a>
+            <a href="balance_enquiry.html" class="btn current"><b>Current</b></a>
+            <a href="transactions.html" class="btn cancel">
+                <img src="cancel_icon.png" alt="Cancel Icon">Cancel
+            </a>
+        </div>
+    </div>
+</body>
+</html>

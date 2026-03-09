@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Transaction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #6A8CFF;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            width: 60%;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+
+        .button-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+        }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 30px;
+            font-size: 20px;
+            text-decoration: none;
+            color: #333;
+            border-radius: 10px;
+            background-color: #f8f9fa;
+            border: 1px solid #ddd;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+        }
+
+        .btn img {
+            margin-right: 10px;
+            height: 24px;
+        }
+
+        /* Custom button colors */
+        .deposit {
+            background-color: #e6f7e6;
+            color: #28a745;
+        }
+
+        .deposit:hover {
+            background-color: #c3e6cb;
+        }
+
+        .withdraw {
+            background-color: #e6f2ff;
+            color: #007bff;
+        }
+
+        .withdraw:hover {
+            background-color: #b8daff;
+        }
+
+        .fast-cash {
+            background-color: #faf5ff;
+            color: #6f42c1;
+        }
+
+        .fast-cash:hover {
+            background-color: #dab6f7;
+        }
+
+        .change-pin {
+            background-color: #fff7ed;
+            color: #fd7e14;
+        }
+
+        .change-pin:hover {
+            background-color: #ffd8b1;
+        }
+
+        .balance-enquiry {
+            background-color: #e6f0ff;
+            color: #6c757d;
+        }
+
+        .balance-enquiry:hover {
+            background-color: #b8d2f7;
+        }
+
+        .cancel {
+            background-color: #ffe6e6;
+            color: #dc3545;
+        }
+
+        .cancel:hover {
+            background-color: #f5c6cb;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Select Transaction</h2>
+        <div class="button-grid">
+            <a href="types_deposit.html" class="btn deposit">
+                <img src="deposit_icon.png" alt="Deposit Icon">Deposit Money
+            </a>
+            <a href="types_withdraw.html" class="btn withdraw">
+                <img src="withdraw_icon.png" alt="Withdraw Icon">Withdraw Money
+            </a>
+            <a href="fastcash.html" class="btn fast-cash">
+                <img src="fastcash_icon.png" alt="Fast Cash Icon">Fast Cash
+            </a>
+            <a href="pin.html" class="btn change-pin">
+                <img src="changepin_icon.png" alt="Change PIN Icon">Change PIN
+            </a>
+            <a href="types_balance.html" class="btn balance-enquiry">
+                <img src="balance_icon.png" alt="Balance Enquiry Icon">Balance Enquiry
+            </a>
+            <a href="home_bank.html" class="btn cancel">
+                <img src="cancel_icon.png" alt="Cancel Icon">Cancel
+            </a>
+        </div>
+    </div>
+</body>
+</html>
