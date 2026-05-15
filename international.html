@@ -11,51 +11,54 @@
 <body id="page-international">
     <div class="container">
         <h1>International Transaction</h1>
-        <label for="country">Select Country:</label>
-        <select id="country">
-            <option value="">Select Country</option>
-            <option value="USA">USA</option>
-            <option value="UK">UK</option>
-            <option value="Canada">Canada</option>
-            <option value="Australia">Australia</option>
-        </select>
+        <form action="transactions.html" method="get">
+            <label for="country">Select Country:</label>
+            <select id="country" required>
+                <option value="">Select Country</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+                <option value="Canada">Canada</option>
+                <option value="Australia">Australia</option>
+            </select>
 
-        <label for="bank">Select Bank:</label>
-        <select id="bank">
-            <option value="">Select Bank</option>
-            <optgroup label="USA">
-                <option value="Bank of America">Bank of America</option>
-                <option value="Wells Fargo">Wells Fargo</option>
-                <option value="Citibank">Citibank</option>
-            </optgroup>
-            <optgroup label="UK">
-                <option value="HSBC">HSBC</option>
-                <option value="Barclays">Barclays</option>
-                <option value="Lloyds">Lloyds</option>
-            </optgroup>
-            <optgroup label="Canada">
-                <option value="RBC">RBC</option>
-                <option value="TD Bank">TD Bank</option>
-                <option value="Scotiabank">Scotiabank</option>
-            </optgroup>
-            <optgroup label="Australia">
-                <option value="Commonwealth Bank">Commonwealth Bank</option>
-                <option value="Westpac">Westpac</option>
-                <option value="ANZ">ANZ</option>
-            </optgroup>
-        </select>
+            <label for="bank">Select Bank:</label>
+            <select id="bank" required>
+                <option value="">Select Bank</option>
+                <optgroup label="USA">
+                    <option value="Bank of America">Bank of America</option>
+                    <option value="Wells Fargo">Wells Fargo</option>
+                    <option value="Citibank">Citibank</option>
+                </optgroup>
+                <optgroup label="UK">
+                    <option value="HSBC">HSBC</option>
+                    <option value="Barclays">Barclays</option>
+                    <option value="Lloyds">Lloyds</option>
+                </optgroup>
+                <optgroup label="Canada">
+                    <option value="RBC">RBC</option>
+                    <option value="TD Bank">TD Bank</option>
+                    <option value="Scotiabank">Scotiabank</option>
+                </optgroup>
+                <optgroup label="Australia">
+                    <option value="Commonwealth Bank">Commonwealth Bank</option>
+                    <option value="Westpac">Westpac</option>
+                    <option value="ANZ">ANZ</option>
+                </optgroup>
+            </select>
 
-        <label for="accountNumber">Account Number:</label>
-        <input type="text" id="accountNumber" placeholder="Enter Account Number">
+            <label for="accountNumber">Account Number:</label>
+            <input type="text" id="accountNumber" placeholder="Enter Account Number" required>
 
-        <label for="ifscCode">IFSC Code:</label>
-        <input type="text" id="ifscCode" placeholder="Enter IFSC Code">
+            <label for="ifscCode">IFSC Code:</label>
+            <input type="text" id="ifscCode" placeholder="Enter IFSC Code" required>
 
-        <div class="button-grid">
-            <button class="btn back" onclick="window.history.back()">
-                <img src="cancel_icon.png" alt="Back Icon">Back
-            </button>
-            <button class="btn submit" onclick="window.location.href='transactions.html'">Submit</button>        </div>
+            <div class="button-grid">
+                <button type="button" class="btn back" onclick="window.history.back()">
+                    <img src="cancel_icon.png" alt="Back Icon">Back
+                </button>
+                <button type="submit" class="btn submit">Submit</button>
+            </div>
+        </form>
     </div>
     <script src="validation.js"></script>
 </body>

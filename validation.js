@@ -122,8 +122,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             });
 
-            if (!isValid) {
-                e.preventDefault(); // Stop submission
+            e.preventDefault(); // Always prevent default to stop POST requests on static servers
+            if (isValid) {
+                const actionUrl = form.getAttribute('action');
+                if (actionUrl) {
+                    window.location.href = actionUrl;
+                }
             }
         });
         
