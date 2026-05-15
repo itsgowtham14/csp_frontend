@@ -1,0 +1,1684 @@
+/* Styles from balance_enquiry.html */
+
+body#page-balance_enquiry {
+    font-family: Arial, sans-serif;
+    background-color: #6A8CFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#page-balance_enquiry .container {
+    width: 30%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#page-balance_enquiry h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#page-balance_enquiry form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#page-balance_enquiry label {
+    font-size: 18px;
+    color: #333;
+    text-align: left;
+}
+
+#page-balance_enquiry input[type="number"] {
+    width: 90%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+}
+
+#page-balance_enquiry input[type="number"]:focus {
+    border-color: #007bff;
+}
+
+#page-balance_enquiry .button-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+#page-balance_enquiry .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 100%;
+}
+
+#page-balance_enquiry .btn:hover {
+    transform: translateY(-3px);
+}
+
+#page-balance_enquiry .check-balance {
+    background-color: #e6f7e6;
+    /* Light green */
+    color: #28a745;
+    /* Dark green */
+}
+
+#page-balance_enquiry .check-balance:hover {
+    background-color: #c3e6cb;
+    /* Hover green */
+}
+
+#page-balance_enquiry .cancel {
+    background-color: #ffe6e6;
+    /* Light red */
+    color: #dc3545;
+    /* Dark red */
+}
+
+#page-balance_enquiry .cancel:hover {
+    background-color: #f5c6cb;
+    /* Hover red */
+}
+
+#page-balance_enquiry .cancel img {
+    margin-right: 10px;
+    height: 24px;
+}
+
+
+/* Styles from deposit.html */
+
+body#page-deposit {
+    font-family: Arial, sans-serif;
+    background-color: #6A8CFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#page-deposit .container {
+    width: 30%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#page-deposit h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#page-deposit form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#page-deposit label {
+    font-size: 18px;
+    color: #333;
+    text-align: left;
+}
+
+#page-deposit input[type="number"] {
+    width: 90%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+}
+
+#page-deposit input[type="number"]:focus {
+    border-color: #007bff;
+}
+
+#page-deposit .button-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#page-deposit .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 100%;
+}
+
+#page-deposit .btn:hover {
+    transform: translateY(-3px);
+}
+
+#page-deposit .deposit {
+    background-color: #e6f7e6;
+    color: #28a745;
+}
+
+#page-deposit .deposit:hover {
+    background-color: #c3e6cb;
+}
+
+#page-deposit .cancel {
+    background-color: #ffe6e6;
+    color: #dc3545;
+}
+
+#page-deposit .cancel:hover {
+    background-color: #f5c6cb;
+}
+
+#page-deposit .cancel img {
+    margin-right: 10px;
+    height: 24px;
+}
+
+
+/* Styles from details.html */
+
+body#page-details {
+    font-family: Arial, sans-serif;
+    background-color: #6A8CFF;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#page-details .container {
+    width: 30%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px gray;
+}
+
+#page-details h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#page-details input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#page-details button {
+    background: #339CFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#page-details button:hover {
+    background: #007bff;
+}
+
+
+/* Styles from domestic.html */
+
+body#page-domestic {
+    font-family: Arial, sans-serif;
+    background-color: #6A8CFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#page-domestic .container {
+    width: 40%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#page-domestic h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#page-domestic .input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#page-domestic .input-group label {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+
+#page-domestic .input-group input {
+    width: 95%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    outline: none;
+    margin-top: 10px;
+}
+
+#page-domestic .input-group input:focus {
+    border-color: #007bff;
+}
+
+#page-domestic .button-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#page-domestic .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 48%;
+}
+
+#page-domestic .btn:hover {
+    transform: translateY(-3px);
+}
+
+#page-domestic .submit {
+    background-color: #e6f7e6;
+    /* Light green */
+    color: #28a745;
+    /* Dark green */
+}
+
+#page-domestic .submit:hover {
+    background-color: #c3e6cb;
+    /* Hover green */
+}
+
+#page-domestic .back {
+    background-color: #ffe6e6;
+    /* Light red */
+    color: #dc3545;
+    /* Dark red */
+}
+
+#page-domestic .back:hover {
+    background-color: #f5c6cb;
+    /* Hover red */
+}
+
+#page-domestic .back img {
+    margin-right: 10px;
+    height: 24px;
+}
+
+#page-domestic .error-message {
+    color: #dc3545;
+    font-size: 14px;
+    margin-top: 5px;
+    display: none;
+}
+
+
+/* Styles from enterpin.html */
+
+body#page-enterpin {
+    font-family: Arial, sans-serif;
+    background-color: #6A8CFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#page-enterpin .container {
+    width: 30%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#page-enterpin h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#page-enterpin input {
+    width: 90%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 18px;
+    outline: none;
+    text-align: center;
+}
+
+#page-enterpin input:focus {
+    border-color: #007bff;
+}
+
+#page-enterpin .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#page-enterpin .btn:hover {
+    transform: translateY(-3px);
+}
+
+#page-enterpin .submit {
+    background-color: #e6f7e6;
+    color: #28a745;
+}
+
+#page-enterpin .submit:hover {
+    background-color: #c3e6cb;
+}
+
+#page-enterpin .cancel {
+    background-color: #ffe6e6;
+    color: #dc3545;
+}
+
+#page-enterpin .cancel:hover {
+    background-color: #f5c6cb;
+}
+
+#page-enterpin .cancel img {
+    margin-right: 10px;
+    height: 24px;
+}
+
+
+/* Styles from fastcash.html */
+
+body#page-fastcash {
+    font-family: Arial, sans-serif;
+    background-color: #6A8CFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#page-fastcash .container {
+    width: 30%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#page-fastcash h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#page-fastcash .button-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+#page-fastcash .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    text-decoration: none;
+    color: white;
+}
+
+#page-fastcash .btn:hover {
+    transform: translateY(-3px);
+}
+
+/* Denomination buttons with unique colors */
+#page-fastcash .denomination-1 {
+    background-color: #e6f7e6;
+    /* Light green */
+    color: #28a745;
+    /* Dark green */
+}
+
+#page-fastcash .denomination-1:hover {
+    background-color: #c3e6cb;
+    /* Hover green */
+}
+
+#page-fastcash .denomination-2 {
+    background-color: #e6f2ff;
+    /* Light blue */
+    color: #007bff;
+    /* Dark blue */
+}
+
+#page-fastcash .denomination-2:hover {
+    background-color: #b8daff;
+    /* Hover blue */
+}
+
+#page-fastcash .denomination-3 {
+    background-color: #faf5ff;
+    /* Light purple */
+    color: #6f42c1;
+    /* Dark purple */
+}
+
+#page-fastcash .denomination-3:hover {
+    background-color: #dab6f7;
+    /* Hover purple */
+}
+
+#page-fastcash .denomination-4 {
+    background-color: #fff7ed;
+    /* Light orange */
+    color: #fd7e14;
+    /* Dark orange */
+}
+
+#page-fastcash .denomination-4:hover {
+    background-color: #ffd8b1;
+    /* Hover orange */
+}
+
+#page-fastcash .denomination-5 {
+    background-color: #e6f0ff;
+    /* Light gray-blue */
+    color: #6c757d;
+    /* Dark gray */
+}
+
+#page-fastcash .denomination-5:hover {
+    background-color: #b8d2f7;
+    /* Hover gray-blue */
+}
+
+#page-fastcash .cancel {
+    background-color: #ffe6e6;
+    /* Light red */
+    color: #dc3545;
+    /* Dark red */
+}
+
+#page-fastcash .cancel:hover {
+    background-color: #f5c6cb;
+    /* Hover red */
+}
+
+#page-fastcash .cancel img {
+    margin-right: 10px;
+    height: 24px;
+}
+
+
+/* Styles from forgot.html */
+
+body#page-forgot {
+    font-family: Arial, sans-serif;
+    background-color: #6A8CFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#page-forgot .container {
+    width: 40%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#page-forgot h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#page-forgot p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+#page-forgot .button-grid {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#page-forgot .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 100%;
+    max-width: 200px;
+    text-decoration: none;
+}
+
+#page-forgot .btn:hover {
+    transform: translateY(-3px);
+}
+
+#page-forgot .back {
+    background-color: #ffe6e6;
+    /* Light red */
+    color: #dc3545;
+    /* Dark red */
+}
+
+#page-forgot .back:hover {
+    background-color: #f5c6cb;
+    /* Hover red */
+}
+
+#page-forgot .back img {
+    margin-right: 10px;
+    height: 24px;
+}
+
+
+/* Styles from home_bank.html */
+
+body#page-home_bank {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #6A8CFF;
+    font-family: Arial, sans-serif;
+}
+
+#page-home_bank .container {
+    width: 40%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#page-home_bank h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#page-home_bank .options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#page-home_bank .options a {
+    padding: 20px;
+    margin: 12px 0;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 24px;
+    background-color: #e6f2ff;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 90%;
+    text-align: center;
+}
+
+#page-home_bank .options a:hover {
+    background-color: #b8daff;
+    transform: translateY(-3px);
+}
+
+/* Logout button - matches your red button style */
+#page-home_bank .logout-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px 30px;
+    background-color: #ffe6e6;
+    /* Light red */
+    color: #dc3545;
+    /* Dark red */
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    display: flex;
+    align-items: center;
+}
+
+#page-home_bank .logout-button:hover {
+    background-color: #f5c6cb;
+    /* Hover red */
+    transform: translateY(-3px);
+}
+
+#page-home_bank .logout-button img {
+    margin-right: 10px;
+    height: 20px;
+}
+
+
+/* Styles from index.html */
+
+body#page-index {
+    font-family: Arial, sans-serif;
+    background-color: #6A8CFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#page-index .container {
+    width: 40%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#page-index h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#page-index .input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#page-index .input-group label {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+
+#page-index .input-group input {
+    width: 95%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    outline: none;
+    margin-top: 10px;
+}
+
+#page-index .input-group input:focus {
+    border-color: #007bff;
+}
+
+#page-index .button-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#page-index .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 48%;
+}
+
+#page-index .btn:hover {
+    transform: translateY(-3px);
+}
+
+#page-index .submit {
+    background-color: #e6f7e6;
+    /* Light green */
+    color: #28a745;
+    /* Dark green */
+}
+
+#page-index .submit:hover {
+    background-color: #c3e6cb;
+    /* Hover green */
+}
+
+#page-index .forgot {
+    background-color: #ffe6e6;
+    /* Light red */
+    color: #dc3545;
+    /* Dark red */
+}
+
+#page-index .forgot:hover {
+    background-color: #f5c6cb;
+    /* Hover red */
+}
+
+#page-index .btn img {
+    margin-right: 10px;
+    height: 24px;
+}
+
+#page-index .error-message {
+    color: #dc3545;
+    font-size: 14px;
+    margin-top: 5px;
+    display: none;
+}
+
+
+/* Styles from international.html */
+
+body#page-international {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #6A8CFF;
+    font-family: Arial, sans-serif;
+}
+
+#page-international .container {
+    width: 40%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#page-international h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#page-international label {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+    text-align: left;
+}
+
+#page-international select,
+#page-international input {
+    width: 95%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    outline: none;
+    margin-top: 10px;
+}
+
+#page-international select:focus,
+#page-international input:focus {
+    border-color: #007bff;
+}
+
+#page-international .button-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#page-international .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 48%;
+}
+
+#page-international .btn:hover {
+    transform: translateY(-3px);
+}
+
+#page-international .submit {
+    background-color: #e6f7e6;
+    /* Light green */
+    color: #28a745;
+    /* Dark green */
+}
+
+#page-international .submit:hover {
+    background-color: #c3e6cb;
+    /* Hover green */
+}
+
+#page-international .back {
+    background-color: #ffe6e6;
+    /* Light red */
+    color: #dc3545;
+    /* Dark red */
+}
+
+#page-international .back:hover {
+    background-color: #f5c6cb;
+    /* Hover red */
+}
+
+#page-international .back img {
+    margin-right: 10px;
+    height: 24px;
+}
+
+
+/* Styles from pin.html */
+
+body#page-pin {
+    font-family: Arial, sans-serif;
+    background-color: #6A8CFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#page-pin .container {
+    width: 30%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#page-pin h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#page-pin label {
+    display: block;
+    font-size: 16px;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+#page-pin input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    text-align: center;
+    box-sizing: border-box;
+    outline: none;
+}
+
+#page-pin input:focus {
+    border-color: #007bff;
+}
+
+#page-pin .button-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+#page-pin .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 100%;
+}
+
+#page-pin .btn:hover {
+    transform: translateY(-3px);
+}
+
+#page-pin .submit {
+    background-color: #e6f7e6;
+    /* Light green */
+    color: #28a745;
+    /* Dark green */
+}
+
+#page-pin .submit:hover {
+    background-color: #c3e6cb;
+    /* Hover green */
+}
+
+#page-pin .cancel {
+    background-color: #ffe6e6;
+    /* Light red */
+    color: #dc3545;
+    /* Dark red */
+}
+
+#page-pin .cancel:hover {
+    background-color: #f5c6cb;
+    /* Hover red */
+}
+
+#page-pin .cancel img {
+    margin-right: 10px;
+    height: 24px;
+}
+
+
+/* Styles from thank.html */
+
+body#page-thank {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #6A8CFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#page-thank .container {
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 2px 2px 10px gray;
+}
+
+#page-thank h2 {
+    color: green;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#page-thank p {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;
+}
+
+
+/* Styles from thankyou.html */
+
+#page-thankyou * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body#page-thankyou {
+    font-family: Arial, sans-serif;
+    background-color: #6A8CFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+#page-thankyou .message-box {
+    background: #FFF;
+    color: #333;
+    padding: 30px;
+    border-radius: 20px;
+    width: 30%;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+#page-thankyou h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#page-thankyou p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+#page-thankyou .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 100%;
+    text-decoration: none;
+}
+
+#page-thankyou .btn:hover {
+    transform: translateY(-3px);
+}
+
+#page-thankyou .finish {
+    background-color: #e6f7e6;
+    color: #28a745;
+}
+
+#page-thankyou .finish:hover {
+    background-color: #c3e6cb;
+}
+
+#page-thankyou .finish img {
+    margin-right: 10px;
+    height: 24px;
+}
+
+
+/* Styles from transactions.html */
+
+body#page-transactions {
+    font-family: Arial, sans-serif;
+    background-color: #6A8CFF;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#page-transactions .container {
+    width: 60%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+#page-transactions h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+#page-transactions .button-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+#page-transactions .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #333;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#page-transactions .btn:hover {
+    transform: translateY(-3px);
+}
+
+#page-transactions .btn img {
+    margin-right: 10px;
+    height: 24px;
+}
+
+/* Custom button colors */
+#page-transactions .deposit {
+    background-color: #e6f7e6;
+    color: #28a745;
+}
+
+#page-transactions .deposit:hover {
+    background-color: #c3e6cb;
+}
+
+#page-transactions .withdraw {
+    background-color: #e6f2ff;
+    color: #007bff;
+}
+
+#page-transactions .withdraw:hover {
+    background-color: #b8daff;
+}
+
+#page-transactions .fast-cash {
+    background-color: #faf5ff;
+    color: #6f42c1;
+}
+
+#page-transactions .fast-cash:hover {
+    background-color: #dab6f7;
+}
+
+#page-transactions .change-pin {
+    background-color: #fff7ed;
+    color: #fd7e14;
+}
+
+#page-transactions .change-pin:hover {
+    background-color: #ffd8b1;
+}
+
+#page-transactions .balance-enquiry {
+    background-color: #e6f0ff;
+    color: #6c757d;
+}
+
+#page-transactions .balance-enquiry:hover {
+    background-color: #b8d2f7;
+}
+
+#page-transactions .cancel {
+    background-color: #ffe6e6;
+    color: #dc3545;
+}
+
+#page-transactions .cancel:hover {
+    background-color: #f5c6cb;
+}
+
+
+/* Styles from types_balance.html */
+
+body#page-types_balance {
+    font-family: Arial, sans-serif;
+    background-color: #6A8CFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#page-types_balance .container {
+    width: 30%;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#page-types_balance h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+#page-types_balance .button-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+#page-types_balance .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #333;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#page-types_balance .btn img {
+    margin-right: 10px;
+    height: 24px;
+}
+
+#page-types_balance .btn:hover {
+    transform: translateY(-3px);
+}
+
+/* Custom button colors */
+#page-types_balance .credit {
+    background-color: #e6f7e6;
+    color: #28a745;
+}
+
+#page-types_balance .credit:hover {
+    background-color: #c3e6cb;
+}
+
+#page-types_balance .savings {
+    background-color: #e6f2ff;
+    color: #007bff;
+}
+
+#page-types_balance .savings:hover {
+    background-color: #b8daff;
+}
+
+#page-types_balance .current {
+    background-color: #faf5ff;
+    color: #6f42c1;
+}
+
+#page-types_balance .current:hover {
+    background-color: #dab6f7;
+}
+
+#page-types_balance .cancel {
+    background-color: #ffe6e6;
+    color: #dc3545;
+}
+
+#page-types_balance .cancel:hover {
+    background-color: #f5c6cb;
+}
+
+
+/* Styles from types_deposit.html */
+
+body#page-types_deposit {
+    font-family: Arial, sans-serif;
+    background-color: #6A8CFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#page-types_deposit .container {
+    width: 30%;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#page-types_deposit h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+#page-types_deposit .button-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+#page-types_deposit .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #333;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#page-types_deposit .btn img {
+    margin-right: 10px;
+    height: 24px;
+}
+
+#page-types_deposit .btn:hover {
+    transform: translateY(-3px);
+}
+
+/* Custom button colors */
+#page-types_deposit .credit {
+    background-color: #e6f7e6;
+    color: #28a745;
+}
+
+#page-types_deposit .credit:hover {
+    background-color: #c3e6cb;
+}
+
+#page-types_deposit .savings {
+    background-color: #e6f2ff;
+    color: #007bff;
+}
+
+#page-types_deposit .savings:hover {
+    background-color: #b8daff;
+}
+
+#page-types_deposit .current {
+    background-color: #faf5ff;
+    color: #6f42c1;
+}
+
+#page-types_deposit .current:hover {
+    background-color: #dab6f7;
+}
+
+#page-types_deposit .cancel {
+    background-color: #ffe6e6;
+    color: #dc3545;
+}
+
+#page-types_deposit .cancel:hover {
+    background-color: #f5c6cb;
+}
+
+
+/* Styles from types_withdraw.html */
+
+body#page-types_withdraw {
+    font-family: Arial, sans-serif;
+    background-color: #6A8CFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#page-types_withdraw .container {
+    width: 30%;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#page-types_withdraw h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+#page-types_withdraw .button-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+#page-types_withdraw .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #333;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#page-types_withdraw .btn img {
+    margin-right: 10px;
+    height: 24px;
+}
+
+#page-types_withdraw .btn:hover {
+    transform: translateY(-3px);
+}
+
+/* Custom button colors */
+#page-types_withdraw .credit {
+    background-color: #e6f7e6;
+    color: #28a745;
+}
+
+#page-types_withdraw .credit:hover {
+    background-color: #c3e6cb;
+}
+
+#page-types_withdraw .savings {
+    background-color: #e6f2ff;
+    color: #007bff;
+}
+
+#page-types_withdraw .savings:hover {
+    background-color: #b8daff;
+}
+
+#page-types_withdraw .current {
+    background-color: #faf5ff;
+    color: #6f42c1;
+}
+
+#page-types_withdraw .current:hover {
+    background-color: #dab6f7;
+}
+
+#page-types_withdraw .cancel {
+    background-color: #ffe6e6;
+    color: #dc3545;
+}
+
+#page-types_withdraw .cancel:hover {
+    background-color: #f5c6cb;
+}
+
+
+/* Styles from withdraw.html */
+
+body#page-withdraw {
+    font-family: Arial, sans-serif;
+    background-color: #6A8CFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#page-withdraw .container {
+    width: 30%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#page-withdraw h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#page-withdraw form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#page-withdraw label {
+    font-size: 18px;
+    color: #333;
+    text-align: left;
+}
+
+#page-withdraw input[type="number"] {
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    outline: none;
+}
+
+#page-withdraw input[type="number"]:focus {
+    border-color: #007bff;
+}
+
+#page-withdraw .button-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#page-withdraw .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #333;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s, transform 0.2s;
+    cursor: pointer;
+}
+
+#page-withdraw .btn:hover {
+    transform: translateY(-3px);
+}
+
+#page-withdraw .withdraw {
+    background-color: #e6f7e6;
+    color: #28a745;
+}
+
+#page-withdraw .withdraw:hover {
+    background-color: #c3e6cb;
+}
+
+#page-withdraw .cancel {
+    background-color: #ffe6e6;
+    color: #dc3545;
+}
+
+#page-withdraw .cancel:hover {
+    background-color: #f5c6cb;
+}
+
+#page-withdraw .cancel img {
+    margin-right: 10px;
+    height: 24px;
+}
+
+
+/* Moved from inline style in details.html */
+#page-details .cancel-btn {
+    background-color: #DC3545;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
